@@ -6,7 +6,10 @@
 CQS suggests! that we divide the operations on domain objects into two distinct categories: Queries and Commands:
 </p>
 
-![CQRS vs CQS](media/cqrs-vs-cqs.png)
+<p align="center">
+<img src="media/cqrs-vs-cqs.png" alt="CQRS vs CQS"> 
+</p>
+ 
 
 Queries return a result and do not change the observable state of a system. Commands change the state of the system but do not necessarily return a value.  
 
